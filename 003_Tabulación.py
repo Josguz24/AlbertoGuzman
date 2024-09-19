@@ -19,12 +19,12 @@ print(lenguajes)  # Muestra la lista de lenguajes en pantalla
 # Biblioteca de descripciones (diccionario)
 descripciones = {
     "Python": "Un lenguaje poderoso y fácil de aprender, ideal para scripting y data science.",
-    "JavaScript": "El lenguaje del front-end web, usado para darle vida a las páginas web.",
+    "Javascript": "El lenguaje del front-end web, usado para darle vida a las páginas web.",
     "Java": "Un lenguaje robusto y multiplataforma, muy utilizado en aplicaciones empresariales.",
-    "PHP": "El veterano de la web, fundamental para el desarrollo de sitios dinámicos.",
-    "TypeScript": "Una versión mejorada de JavaScript, con tipado estático para mayor seguridad.",
-    "SQL": "El lenguaje estándar para gestionar bases de datos relacionales.",
-    "COBOL": "Un clásico de la programación empresarial, aún en uso en muchos bancos y gobiernos.",
+    "Php": "El veterano de la web, fundamental para el desarrollo de sitios dinámicos.",
+    "Typescript": "Una versión mejorada de JavaScript, con tipado estático para mayor seguridad.",
+    "Sql": "El lenguaje estándar para gestionar bases de datos relacionales.",
+    "Cobol": "Un clásico de la programación empresarial, aún en uso en muchos bancos y gobiernos.",
     "Rust": "Conocido por su seguridad de memoria, ideal para sistemas donde la seguridad es clave.",
     "Go": "Creado por Google, combina simplicidad y eficiencia, perfecto para sistemas distribuidos."
 }  
@@ -44,3 +44,4 @@ if opc in descripciones:
 else:
     # Si el lenguaje no se encuentra, se informa al usuario
     print(f"\nEl lenguaje {opc} no está en nuestra lista de lenguajes.")
+
